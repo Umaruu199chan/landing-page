@@ -1,0 +1,35 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+   background-color: #1F2937; 
+}
+/* Start of the nav design ---------------------------------------------------------------------------------- */
+nav {
+    display: flex;
+    padding-top: 0;
+    padding-left: 50px;
+    flex-direction: row;
+    align-items: center;
+    gap: 25%;
+    margin-left: 5%;
+}
+nav .links ul{
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+}
+nav .links ul li a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+nav .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+/* End of the nav Design ------------------------------------------------------------------------------------------- */
