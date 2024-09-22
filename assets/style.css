@@ -142,3 +142,36 @@ nav .logo {
     padding-right: 15%;
 }
 /* End of the Quote Section----------------------------------------------------------------------------------------- */
+
+/* Start of the Signup Section----------------------------------------------------------------------------------------- */
+.signup-container {
+    max-height: 400px;
+    padding: 9%;
+}
+.signup-rectangle {
+    background-color: #0264f8d3;
+    border-radius: 10px;
+    padding: 50px 40px 50px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.text p, h2 {
+    color: #F9FAF8;
+    margin: 0;
+}
+.button button {
+    font-size: 18px;
+    padding: 10px 40px 10px 40px;
+    border: solid #F9FAF8 2px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #ffff;
+    transition: transform 0.3s ease;
+}
+.button button:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+/* End of the Signup Section ------------------------------------------------------------------------------------------*/ 
