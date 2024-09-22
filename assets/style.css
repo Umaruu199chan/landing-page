@@ -175,3 +175,20 @@ nav .logo {
     cursor: pointer;
 }
 /* End of the Signup Section ------------------------------------------------------------------------------------------*/ 
+
+/* Start of the Footer */
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: row;
+    align-items: center;
+    padding: 2%;
+}
+footer h1 {
+    margin: 0 auto;
+    font-weight: lighter;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #F9FAF8;
+}
